@@ -1,7 +1,19 @@
+body {
+    background: #39150C url(./assets/background.jpg) no-repeat fixed top center;
+    padding: 0;
+    margin: 0;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+
+}
+
+
+
 #heracrossbutton:active {
 
     animation: shake 0.5s ease-in-out;
-
 }
 
 @keyframes shake {
@@ -21,3 +33,69 @@
 #tableHeracrossName {
     text-transform: capitalize;
 }
+
+#header {
+    text-align: center;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+#text-one {
+    text-align: center;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+.container {
+    position: relative;
+    left: 735px;
+    margin: 0px 0px 0px 0px;
+    padding: 25px 25px 25px 25px;
+    width: 450px;
+    background-color: rgb(212, 203, 203);
+    border: solid 1px rgb(233, 21, 21);
+    border-radius: 15px;
+    box-shadow:
+        0 16px 32px 0 rgba(0, 0, 0, 0.2)
+        0 24px 60px 0 rgba(0, 0, 0, 0.19);
+}
+
+#stats {
+    margin: 10px 10px 10px 10px;
+    padding: 5px 5px 5px 5px;
+    width: 400px;
+}
+
+#heracrossHP {
+    position:absolute;
+    top: 198px;
+    right: 360px;
+}
+
+#heracrossATK {
+    position:absolute;
+    top: 222px;
+    right: 325px;
+}
+
+#heracrossDEF {
+    position:absolute;
+    top: 246px;
+    right: 318px;
+}
+
+#heracrossSPATK {
+    position:absolute;
+    top: 271px;
+    right: 275px;
+}
+
+#heracrossSPDEF {
+    position:absolute;
+    top: 294px;
+    right: 260px;
+}
+
+#heracrossSPE {
+    position:absolute;
+    top: 318px;
+    right: 335px;
+}
+
